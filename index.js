@@ -1,7 +1,7 @@
 const static = require('node-static');
 const http = require('http');
 
-let port = 8000
+let port = 8080
 const staticServer = new(static.Server)(`${__dirname}/public`);
 const PROXY_REGEX = /^\/api(.*)$/;
 const PROXY_HOSTNAME = 'wikipedia.org';
@@ -42,3 +42,4 @@ http.createServer(function (req, res) {
   }
 
 }).listen(port);
+console.log(`Serve on localhost:${ port }`)
