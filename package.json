@@ -1,0 +1,23 @@
+{
+  "name": "static-node-server",
+  "version": "1.0.0",
+  "description": "A static nodeJS server with proxy API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Namide/static-node-server.git"
+  },
+  "author": "Namide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Namide/static-node-server/issues"
+  },
+  "homepage": "https://github.com/Namide/static-node-server#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
