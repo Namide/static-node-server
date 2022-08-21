@@ -1,3 +1,8 @@
+# Static NodeJS server
+
+> A static nodeJS server with proxy API
+
+## Run Docker container
 
 ```bash
 docker run -ti --rm \
@@ -7,4 +12,10 @@ docker run -ti --rm \
   -w /usr/src/app \
   node:slim \
   bash
+```
+
+## Run server
+
+```bash
+npm start
 ```
